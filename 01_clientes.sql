@@ -1,3 +1,13 @@
+CREATE TABLE Cliente (
+    id_cliente INT PRIMARY KEY,
+    nombre VARCHAR(100),
+    edad INT,
+    genero VARCHAR(10),
+    region VARCHAR(50),
+    fecha_registro DATE,
+    correo_electronico VARCHAR(100)
+);
+
 INSERT INTO Cliente (id_cliente, nombre, edad, genero, region, fecha_registro, correo_electronico) VALUES (1, 'Benito Llorens', 58, 'Masculino', 'Centro', '2024-03-13', 'xportero@hotmail.com');
 INSERT INTO Cliente (id_cliente, nombre, edad, genero, region, fecha_registro, correo_electronico) VALUES (2, 'Corona Molins Gálvez', 65, 'Femenino', 'Oriente', '2024-10-07', 'rubiopascual@gmail.com');
 INSERT INTO Cliente (id_cliente, nombre, edad, genero, region, fecha_registro, correo_electronico) VALUES (3, 'Marcial Santamaría Torrent', 32, 'Masculino', 'Occidente', '2021-08-28', 'eugenia47@nevado-andres.org');
