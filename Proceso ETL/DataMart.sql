@@ -1,15 +1,13 @@
 CREATE DATABASE Telecom_DataMart;
 
-USE Telecom_DataMart;
-
 -- Dimensiones
 CREATE TABLE DimCliente (
     id_cliente INT PRIMARY KEY,
     nombre VARCHAR(100),
     edad INT,
     genero VARCHAR(10),
-    correo_electronico VARCHAR(100),
-    fecha_registro DATE
+    fecha_registro DATE,
+    correo_electronico VARCHAR(100)
 );
 
 CREATE TABLE DimServicio (
@@ -31,7 +29,6 @@ CREATE TABLE DimFecha (
 CREATE TABLE DimRegion (
     id_region INT PRIMARY KEY,
     nombre_region VARCHAR(50),
-    zona VARCHAR(20),
     pais VARCHAR(50)
 );
 

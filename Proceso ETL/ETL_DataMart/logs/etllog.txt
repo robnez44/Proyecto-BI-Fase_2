@@ -1,0 +1,21 @@
+Microsoft (R) SQL Server Execute Package Utility
+Version 16.0.1000.6 for 64-bit
+Copyright (C) 2022 Microsoft. All rights reserved.
+
+Started:  12:38:42 AM
+Error: 2025-06-07 00:38:42.55
+   Code: 0xC0011007
+   Source: {362C2DD3-19F3-46F4-BA89-98BA5DFF8C1B} 
+   Description: Unable to load the package as XML because of package does not have a valid XML format. A specific XML parser error will be posted.
+End Error
+Error: 2025-06-07 00:38:42.55
+   Code: 0xC0011002
+   Source: {362C2DD3-19F3-46F4-BA89-98BA5DFF8C1B} 
+   Description: Failed to open package file "Package.dtsx" due to error 0x800C0006 "The system cannot locate the object specified.".  This occurs when loading a package and the file cannot be opened or loaded correctly into the XML document. This can be the result of specifying an incorrect file name when calling LoadPackage or the specified XML file has an incorrect format.
+End Error
+Could not load package "Package.dtsx" because of error 0xC0011002.
+Description: Failed to open package file "Package.dtsx" due to error 0x800C0006 "The system cannot locate the object specified.".  This occurs when loading a package and the file cannot be opened or loaded correctly into the XML document. This can be the result of specifying an incorrect file name when calling LoadPackage or the specified XML file has an incorrect format.
+Source: {362C2DD3-19F3-46F4-BA89-98BA5DFF8C1B}
+Started:  12:38:42 AM
+Finished: 12:38:42 AM
+Elapsed:  0.031 seconds
